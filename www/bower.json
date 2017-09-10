@@ -1,0 +1,22 @@
+{
+  "name": "www",
+  "homepage": "https://github.com/makileeshao/biz-tracker",
+  "authors": [
+    "makileeshao <makilee.shao@gmail.com>"
+  ],
+  "description": "biz tracker",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.6",
+    "bootstrap": "^3.3.7"
+  }
+}
