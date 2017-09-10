@@ -18,10 +18,6 @@
  */
 
 var bizApp = angular.module('BizTracker', []);
-bizApp.run(['$rootScope', function($rootScope){
-    console.info('on Run');
-}]);
-
 var app = {
     // Application Constructor
     initialize: function() {
@@ -52,7 +48,7 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-        
+
         app.initAngular();
     },
 
